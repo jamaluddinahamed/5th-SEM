@@ -1,0 +1,23 @@
+{% extends "shared-key.html" %}
+{% block body %} 
+
+<div id="encryption">
+    <div id="decrypt-form">
+      <form action="/main/decrypt" method="post">
+        <label>Message to Decrypt:</label>
+        <br>
+        <textarea id="decrypt-message" name="message"></textarea>
+        <br>
+        <label>Key (lowercase a - z only):</label><br>
+        <input type="text" class="shared-key" name="key1">
+        <br>
+        <button value="submit">Decrypt</button>
+      </form>             
+    </div>
+  </div>
+  <div id="explanation">
+    {{ explanation }}
+  </div>
+
+
+{% endblock %}

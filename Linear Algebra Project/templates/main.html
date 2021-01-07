@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block menu %} 
+
+
+    <ul id="function-list">
+      
+      <li  class="{{ encrypt }}">
+        <a href="/main/encrypt">
+          <h3>
+            Encrypt
+          </h3> 
+        </a> 
+      </li>
+     
+      <li class="{{ decrypt }}">
+        <a href="/main/decrypt">  
+          <h3>
+            Decrypt
+          </h3>
+        </a>
+      </li> 
+
+    </ul>
+
+{% endblock %}
+{% block body %}
+{% endblock %}
