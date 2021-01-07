@@ -1,0 +1,5 @@
+Input filename with directory: "AudioComp_Hybrid/Input/input.wav"
+This is to be given as input in MATLAB command window.
+
+Output filename with directory: "AudioComp_Hybrid/Output/output3.wav"
+Output will be present with this name in the directory "AudioComp_Hybrid/Output"
